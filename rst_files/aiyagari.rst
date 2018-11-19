@@ -130,6 +130,10 @@ The parameter :math:`\delta` is the depreciation rate
 From the first-order condition with respect to capital, the firm's inverse demand for capital is
 
 .. math::
+
+    r = A \alpha  \left( \frac{N}{K} \right)^{1 - \alpha} - \delta
+    
+.. math::
     :label: aiy_rgk
 
     r = A \alpha  \left( \frac{N}{K} \right)^{1 - \alpha} - \delta
@@ -137,6 +141,10 @@ From the first-order condition with respect to capital, the firm's inverse deman
 Using this expression and the firm's first-order condition for labor, we can pin down
 the equilibrium wage rate as a function of :math:`r` as
 
+.. math::
+
+    w(r) = A  (1 - \alpha)  (A \alpha / (r + \delta))^{\alpha / (1 - \alpha)}
+    
 .. math::
     :label: aiy_wgr
 
